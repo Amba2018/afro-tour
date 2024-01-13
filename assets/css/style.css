@@ -113,6 +113,34 @@ main {
     color: #ffffff;
 }
 
+/* Reasons section */
+#highlights {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#highlights h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#llocal > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#local p {
+    padding: 0 10px;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+#local hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* Footer */
 footer {
     #social-networks {
