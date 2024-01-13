@@ -18,7 +18,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -109,14 +111,21 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
 }
 
 /* Itinerary section */
 #highlights {
-    width: 90%;
+    width: 100%;
     margin: 20px auto;
+    padding: 0 1rem;
+}
+
+.highlights {
+    width: 100%;
+    background: url('../images/Manhyia-Palace-Museum1.jpg') no-repeat center center/cover;
 }
 
 #highlights h2 {
@@ -125,9 +134,15 @@ main {
     font-size: 280%;
 }
 
-#llocal > div {
-    line-height: 20px;
-    margin-bottom: 20px;
+#local {
+    background-color: rgba(56, 56, 56, 0.8);
+    color: whitesmoke;
+    padding-left: 1%;
+}
+
+#local h3 {
+    background-color: rgba(56, 56, 56, 0.5);
+    color: whitesmoke;    
 }
 
 #local p {
@@ -141,22 +156,24 @@ main {
     margin: 5px 0;
 }
 
+/*
 #circle-cover-bg {
     background: url('../images/Manhyia-Palace-Museum5.jpg') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
-    margin-bottom: 20px;
-    /* Makes the square image into a circle */
-    border-radius: 50%;
+    margin-bottom: 20px;*/
+/* Makes the square image into a circle */
+/* border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-}
+} 
 
 #highlights-image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+*/
 
 /* Footer */
 footer {
@@ -167,12 +184,12 @@ footer {
         justify-content: space-evenly;
         list-style-type: none;
     }
-}
 
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #694d4d;
+    #social-networks i {
+        font-size: 160%;
+        padding: 5%;
+        color: #694d4d;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -216,9 +233,29 @@ footer {
         width: 300px;
         right: 50px;
         /*Add to adjust to the image since it does not cover the whole screen*/
-        top: 50%;
-        bottom: 50%;
+        top: 20%;
+        bottom: 65%;
     }
+
+    /* Itinerary section */
+    /*
+    #local-delight,
+    #local-fab {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }*/
+    /*
+    #local-delight > div,
+    #local-fab > div {
+        width: 75%;
+    }*/
+    /*
+    #local-fab > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+*/
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -226,4 +263,33 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
 }
+
+@media screen and (min-width: 1200px) {
+
+    /* Itinerary section */
+    #local {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #local>div {
+        flex: 1;
+    }
+
+    #highlights-image {
+        order: 0
+    }
+
+    #local-fab {
+        order: 1;
+    }
+
+    #local-fab>div {
+        align-self: flex-start;
+    }
+
+    #local-delight>div {
+        align-self: flex-end;
+    }
