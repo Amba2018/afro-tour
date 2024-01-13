@@ -141,6 +141,23 @@ main {
     margin: 5px 0;
 }
 
+#circle-cover-bg {
+    background: url('../images/Manhyia-Palace-Museum5.jpg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#highlights-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer */
 footer {
     #social-networks {
