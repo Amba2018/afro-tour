@@ -203,7 +203,6 @@ main {
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-    
 }
 
 #signup-form {
@@ -220,7 +219,7 @@ main {
 label {
     font-weight: bold;
     display: block;
-  }
+}
 
 .text-input {
     background: transparent;
@@ -306,8 +305,9 @@ label {
     color: #3a3a3a;
 }
 
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
+/* Media query: large or landscape phones (476px and up) */
+
+@media screen and (min-width: 476px) {
     #photos {
         column-count: 2;
         column-gap: 0;
@@ -446,5 +446,5 @@ label {
     #local-delight>div {
         align-self: flex-end;
     }
-  
+
 }
