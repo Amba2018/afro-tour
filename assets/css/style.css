@@ -236,7 +236,6 @@ label {
     color: #fafafa;
 }
 
-
 /*Contact section*/
 #contact {
     text-align: center;
@@ -288,8 +287,16 @@ label {
 }
 
 /* Media query: large or landscape phones (476px and up) */
-
 @media screen and (min-width: 476px) {
+  /* Hero image */
+  #cover-text {
+    width: 300px;
+    right: 0px;
+    /*Add to adjust to the image since it does not cover the whole screen*/
+    top: 20%;
+    bottom: 65%;
+}
+/*Gallery Images*/
     #photos {
         column-count: 2;
         column-gap: 0;
