@@ -348,26 +348,6 @@ label {
         bottom: 65%;
     }
 
-    /* Itinerary section */
-    /*
-    #local-delight,
-    #local-fab {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }*/
-    /*
-    #local-delight > div,
-    #local-fab > div {
-        width: 75%;
-    }*/
-    /*
-    #local-fab > div {
-        text-align: end;
-        align-self: flex-end;
-    }
-*/
-
     /* Gallery */
     #photos {
         column-count: 3;
@@ -394,7 +374,6 @@ label {
         color: #454b1b;
     }
 }
-
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -435,5 +414,4 @@ label {
     #local-delight>div {
         align-self: flex-end;
     }
-
 }
