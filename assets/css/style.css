@@ -207,6 +207,14 @@ label {
     display: block;
 }
 
+input[type=text],
+input[type=email] {
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+
 .text-input {
     background: transparent;
     color: #fafafa;
@@ -267,7 +275,7 @@ label {
     /* This will not wrap on screens of less than 400px wide.
     Each div will expand to fill the available space on its row */
     /* flex-basis: 200px;*/
-    flex-grow: 1;  
+    flex-grow: 1;
 }
 
 #contact-box h3 {
@@ -292,20 +300,30 @@ label {
 
 /* Media query: large or landscape phones (476px and up) */
 @media screen and (min-width: 476px) {
-  /* Hero image */
-  #cover-text {
-    width: 300px;
-    right: 0px;
-    /*Add to adjust to the image since it does not cover the whole screen*/
-    top: 20%;
-    bottom: 65%;
-}
 
-/*Gallery Images*/
+    /* Hero image */
+    #cover-text {
+        width: 300px;
+        right: 0px;
+        /*Add to adjust to the image since it does not cover the whole screen*/
+        top: 20%;
+        bottom: 65%;
+    }
+
+    /*Gallery Images*/
     #photos {
         column-count: 2;
         column-gap: 0;
     }
+
+    input[type=text],
+    input[type=email] {
+        height: 30px;
+        width: 100%;
+        padding-left: 10px;
+        margin: 0 auto;
+    }
+
 }
 
 /* Media query: tablets and larger (768px and up) */
