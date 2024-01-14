@@ -111,7 +111,7 @@ main {
     bottom: 30px;
     width: 80%;
     min-height: 200px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
 }
 
@@ -160,24 +160,6 @@ main {
     margin: 5px 0;
 }
 
-/*
-#circle-cover-bg {
-    background: url('../images/Manhyia-Palace-Museum5.jpg') no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;*/
-/* Makes the square image into a circle */
-/* border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-} 
-
-#highlights-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-*/
 /* Gallery page */
 #gallery {
     display: flex;
