@@ -223,7 +223,7 @@ label {
     overflow: scroll;
 }
 
-#terms>h5 {
+#terms h5 {
     font-weight: bold;
 }
 
@@ -251,6 +251,8 @@ label {
 
 #contact-box-tb {
     margin: auto;
+    table-layout: auto;
+    width: 100%;
 }
 
 #contact-box div {
@@ -261,9 +263,7 @@ label {
     /* This will not wrap on screens of less than 400px wide.
     Each div will expand to fill the available space on its row */
     /* flex-basis: 200px;*/
-    flex-grow: 1;
-    /* Creates a grid of meetup time divs over the background image */
-
+    flex-grow: 1;  
 }
 
 #contact-box h3 {
