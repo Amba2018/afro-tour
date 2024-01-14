@@ -95,7 +95,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/Hero-Manhyia-Palace-Museum4.jpg") no-repeat center center/cover;
+    background: url("../images/Hero-Manhyia-Palace-Museum4.webp") no-repeat center center/cover;
 }
 
 /*Hero Cover text format*/
@@ -125,7 +125,7 @@ main {
 
 .highlights {
     width: 100%;
-    background: url('../images/Manhyia-Palace-Museum1.jpg') no-repeat center center/cover;
+    background: url('../images/Manhyia-Palace-Museum1.webp') no-repeat center center/cover;
 }
 
 #highlights h2 {
@@ -226,7 +226,6 @@ main {
     /* Override the heading colour set in general styles */
     color: #fafafa;
 }
-
 
 /* Footer */
 #social-networks {
