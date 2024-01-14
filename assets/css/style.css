@@ -142,7 +142,7 @@ main {
 
 #local h3 {
     background-color: rgba(56, 56, 56, 0.5);
-    color: whitesmoke;    
+    color: whitesmoke;
 }
 
 #local p {
@@ -178,18 +178,20 @@ main {
 /*Contact section*/
 #contact {
     text-align: center;
-    background: rgb(21, 175, 21);
-    }
+    /*background: rgb(21, 175, 21);*/
+}
+
 #contact-box {
     background: rgb(125, 212, 125);
     /* Handles responsivity without the need for a media query */
     display: flex;
-    flex-wrap: wrap;*/
+    flex-wrap: wrap;
 }
- 
-#contact-box-tb{
+
+#contact-box-tb {
     margin: auto;
- }
+}
+
 #contact-box div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
@@ -197,10 +199,10 @@ main {
     text-align: center;
     /* This will not wrap on screens of less than 400px wide.
     Each div will expand to fill the available space on its row */
-   /* flex-basis: 200px;*/
+    /* flex-basis: 200px;*/
     flex-grow: 1;
     /* Creates a grid of meetup time divs over the background image */
-    
+
 }
 
 #contact-box h3 {
@@ -210,21 +212,20 @@ main {
 
 
 /* Footer */
-footer {
-    #social-networks {
-        text-align: center;
-        padding: 20px 0;
-        display: flex;
-        justify-content: space-evenly;
-        list-style-type: none;
-    }
-
-    #social-networks i {
-        font-size: 160%;
-        padding: 5%;
-        color: #694d4d;
-    }
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -327,3 +328,4 @@ footer {
     #local-delight>div {
         align-self: flex-end;
     }
+}
