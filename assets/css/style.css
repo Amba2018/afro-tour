@@ -86,9 +86,13 @@ nav {
 
 /* Main content */
 main {
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    margin-top: 47px;
+     /* Enlarge main element to push footer down*/
+     flex: 1 0 auto;
+     /* Add margin at the top to prevent content from being covered by the header */
+     margin-top: 47px;
+     /* Enable flex properties for child elements */
+     display: flex;
+     flex-direction: column;
 }
 
 /* Hero section */
@@ -191,6 +195,9 @@ main {
 #photos {
     line-height: 0;
 }
+
+/* Form */
+
 
 /*Contact section*/
 #contact {
@@ -320,7 +327,7 @@ main {
         column-count: 3;
     }
 
-}
+ }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
