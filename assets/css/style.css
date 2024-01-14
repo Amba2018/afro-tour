@@ -203,6 +203,7 @@ main {
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    
 }
 
 #signup-form {
@@ -215,6 +216,11 @@ main {
     color: #fafafa;
     margin-bottom: 20px;
 }
+
+label {
+    font-weight: bold;
+    display: block;
+  }
 
 .text-input {
     background: transparent;
@@ -234,6 +240,10 @@ main {
     margin: 1.5rem 0 0 15px;
     border: 1px solid grey;
     overflow: scroll;
+}
+
+#terms>h5 {
+    font-weight: bold;
 }
 
 .join-button {
@@ -377,14 +387,13 @@ main {
     /* Form */
     #signup {
         background-position: center;
-        position: relative;
+        position: inherit;
     }
 
     #signup-form {
         max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 150px;
+        right: 10%;
+        top: 100px;
     }
 
     .text-input:hover {
@@ -408,7 +417,6 @@ main {
     #photos {
         column-count: 4;
     }
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -438,4 +446,5 @@ main {
     #local-delight>div {
         align-self: flex-end;
     }
+  
 }
