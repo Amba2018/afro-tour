@@ -262,16 +262,17 @@ input[type=email] {
     color: #ffffff;
     background-color: rgba(61, 60, 60, 0.6);
     margin: auto;
-    width: 50%;
+    width: auto;
 }
 
 .response {
     color: #ffffff;
     background-color: rgba(61, 60, 60, 0.6);
     padding: 30px;
+    font-size: 100%;
     text-align: center;
     margin: auto;
-    width: 50%;
+    width: auto;
 }
 
 /*Contact section*/
@@ -423,16 +424,16 @@ input[type=email] {
         color: #454b1b;
     }
 
-/*Signup Response*/
+    /*Signup Response*/
 
-#thank-you h1 {
-    font-size: 300%;
-}
+    #thank-you h1 {
+        font-size: 300%;
+    }
 
-#response>h1,
-h2 {
-      font-size: xx-large;
-}
+    #response>h1,
+    h2 {
+        font-size: xx-large;
+    }
 
 }
 
