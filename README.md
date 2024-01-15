@@ -80,6 +80,7 @@ Contact page
 
 ![Contact HTML Validator Results](readme_doc/testing/Contact_validator.png)
 
+![Contact HTML Validator Results](readme_doc/testing/Signup_response_validator.png)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
