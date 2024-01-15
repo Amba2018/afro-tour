@@ -1,5 +1,14 @@
 # Afro Tour
-
+[Afro Tour](https://amba2018.github.io/afro-tour/) is a website where users can sign up for sightseeing and cultural experience in Ghana formally known as Gold Coast. This 8-day cultural experience in Ghana includes visits to 
+* W.E.B Dubois Memorial Centre, 
+* Independence Square, 
+* Accra Arts & Crafts Centre, 
+* Kwame Nkrumah Memorial Park, 
+* Manhyia Palace Museum, 
+* Assin Manso Slave River, 
+* Adanwomase, Ntonso Village, 
+* Elmina Castle and more.
+The website also attempts to provide information to users who want and are looking for a relaxing holiday for themselves or with their families.
 View the live site [here](https://amba2018.github.io/afro-tour/)
 
 ![Mockup](readme_doc/testing/Responsiveness.png)
