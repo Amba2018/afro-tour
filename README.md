@@ -1,39 +1,98 @@
-![CI logo](./assets/images/Hero-Manhyia-Palace-Museum4.webp)
+# Afro Tour
 
-Welcome,
+View the live site [here](https://amba2018.github.io/afro-tour/)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Mockup](readme_doc/testing/Responsiveness.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Design
 
-`python3 -m http.server`
+### Wireframes
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Home page
+<br>
+![Home page large screen](readme_doc/balsamiq/Index_Section.png)
+![Home page small screen](readme_doc/balsamiq/Index_Section_m.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+<br><br>
+Gallery page
+<br>
+![Gallery page large screen](readme_doc/balsamiq/Gallery_Section.png)
+![Gallery page small screen](readme_doc/balsamiq/Gallery_Section_m.png)
 
-`http_server`
+<br><br>
+Signup page
+<br>
+![Signup page large screen](readme_doc/balsamiq/Signup_Section.png)
+![Signup page small screen](readme_doc/balsamiq/Signup_Section_m.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<br><br>
+Contact page
+<br>
+![Contact page large screen](readme_doc/balsamiq/Contact_Section.png)
+![Contact page small screen](readme_doc/balsamiq/Contact_Section_m.png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+<br><br><br><br>
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+##Technologies
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
----
+## Testing
 
-Happy coding!
+### Responsiveness
+
+
+### Accessibility
+
+
+### Lighthouse Testing
+
+![Home](readme_doc/testing/Index_lighthouse.png)
+
+![Gallery](readme_doc/testing/Gallery_lighthouse.png)
+
+![Signup](readme_doc/testing/Signup_lighthouse.png)
+
+![HContact](readme_doc/testing/Contact_lighthouse.png)
+
+### Functional testing
+
+** Navigation Links **
+
+** Form Testing **
+
+** Footer Social Media Icons / Links **
+
+### Validator Testing 
+
+ HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+
+![Home HTML Validator Results](readme_doc/testing/Index_validator.png)
+
+![Gallery HTML Validator Results](readme_doc/testing/Gallery_validator.png)
+
+![Signup HTML Validator Results](readme_doc/testing/Signup_validator.png)
+
+![Contact HTML Validator Results](readme_doc/testing/Contact_validator.png)
+
+
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+
+![CSS Validator Results](readme_doc/testing/Styles_validator.png)
+
+### Unfixed Bugs
+
+
+## Deployment
+
+
+## Credits
+
+
+
