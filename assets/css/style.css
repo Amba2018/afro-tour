@@ -184,7 +184,7 @@ main {
 
 /* Form */
 #signup {
-    background-image: url("../images/KakumNP13.webp");
+    background-image: url("../images/KakumNP13.webp") ;
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -249,11 +249,36 @@ input[type=email] {
 }
 
 /*Signup Response*/
-.response {
+#thank-you {
+    background-image: url("../images/KakumNP7.webp") ;
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#thank-you h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 300%;
+    background-color: rgba(61, 60, 60, 0.6);
     margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
-    padding: 10px;
+    width: 50%;
+}
+
+.response {
+    color: #ffffff;
+    background-color: rgba(61, 60, 60, 0.6);
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+#response>h1,h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+    font-size: xx-large;
 }
 
 /*Contact section*/
