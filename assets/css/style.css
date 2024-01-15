@@ -248,6 +248,14 @@ input[type=email] {
     color: #fafafa;
 }
 
+/*Signup Response*/
+.response {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
 /*Contact section*/
 #contact {
     text-align: center;
@@ -396,6 +404,7 @@ input[type=email] {
         background-color: #fafafa;
         color: #454b1b;
     }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -437,4 +446,5 @@ input[type=email] {
     #local-delight>div {
         align-self: flex-end;
     }
+
 }
