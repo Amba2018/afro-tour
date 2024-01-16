@@ -92,7 +92,7 @@ View the live site [here](https://amba2018.github.io/afro-tour/)
 
 Home page
 
-![Home page large screen](readme_doc/balsamiq/Index_Section.png)
+![Home page large screen](readme_doc/balsamiq/Index_Section.png){width=50%}
 ![Home page small screen](readme_doc/balsamiq/Index_Section_m.png)
 
 <br><br>
