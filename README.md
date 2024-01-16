@@ -55,24 +55,24 @@ View the live site [here](https://amba2018.github.io/afro-tour/)
     ![Mockup](readme_doc/afrotour_images/gallery.png)
 
 ### Signup form
-    * A signup form will be implemented to allow users to register. The form will consist of the following fields and attributes: 
-        * Title (required, type=text)
-        * First Name (required, type=text)
-        * Middle Name (optional, type=text)
-        * Last Name (required, type=text)
-        * Address (required, type=text)
-        * Additional address space (optional, type=text)
-        * Postal Code (required, type=text)
-        * Country (required, type=text)
-        * Email (required, type=email)
-        
-    * On successful registration, the user will be navigated to signup_response.html displaying a congratulations message.
+* A signup form will be implemented to allow users to register. The form will consist of the following fields and attributes: 
+  * Title (required, type=text)
+  * First Name (required, type=text)
+  * Middle Name (optional, type=text)
+  * Last Name (required, type=text)
+  * Address (required, type=text)
+  * Additional address space (optional, type=text)
+  * Postal Code (required, type=text)
+  * Country (required, type=text)
+  * Email (required, type=email) 
+
+* On successful registration, the user will be navigated to signup_response.html displaying a congratulations message.
     
 ![Mockup](readme_doc/afrotour_images/signup.png)
 ![Mockup](readme_doc/afrotour_images/thank_you.png)
 
 ### Contact form
-    * A contact section will be implemented to allow users to contact '[Afro Tour](https://amba2018.github.io/afro-tour/)' either by telephone or email.  
+* A contact section will be implemented to allow users to contact '[Afro Tour](https://amba2018.github.io/afro-tour/)' either by telephone or email.  
 
 ![Mockup](readme_doc/afrotour_images/contact.png)
 
