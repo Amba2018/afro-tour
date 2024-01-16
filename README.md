@@ -92,26 +92,26 @@ View the live site [here](https://amba2018.github.io/afro-tour/)
 
 Home page
 <br>
-![Home page large screen](readme_doc/balsamiq/Index_Section.png)
-![Home page small screen](readme_doc/balsamiq/Index_Section_m.png)
+    ![Home page large screen](readme_doc/balsamiq/Index_Section.png)
+    ![Home page small screen](readme_doc/balsamiq/Index_Section_m.png)
 
 <br><br>
 Gallery page
 <br>
-![Gallery page large screen](readme_doc/balsamiq/Gallery_Section.png)
-![Gallery page small screen](readme_doc/balsamiq/Gallery_Section_m.png)
+    ![Gallery page large screen](readme_doc/balsamiq/Gallery_Section.png)
+    ![Gallery page small screen](readme_doc/balsamiq/Gallery_Section_m.png)
 
 <br><br>
 Signup page
 <br>
-![Signup page large screen](readme_doc/balsamiq/Signup_Section.png)
-![Signup page small screen](readme_doc/balsamiq/Signup_Section_m.png)
+    ![Signup page large screen](readme_doc/balsamiq/Signup_Section.png)
+    ![Signup page small screen](readme_doc/balsamiq/Signup_Section_m.png)
 
 <br><br>
 Contact page
 <br>
-![Contact page large screen](readme_doc/balsamiq/Contact_Section.png)
-![Contact page small screen](readme_doc/balsamiq/Contact_Section_m.png)
+    ![Contact page large screen](readme_doc/balsamiq/Contact_Section.png)
+    ![Contact page small screen](readme_doc/balsamiq/Contact_Section_m.png)
 
 <br><br><br><br>
 
